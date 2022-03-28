@@ -57,6 +57,7 @@ Dummy data to insert
   "price": 10,
   
   "status": "1"
+  
 }
 
 
