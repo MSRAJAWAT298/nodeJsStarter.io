@@ -1,72 +1,56 @@
-# nodejs-starter
+# Rest-Api-In-Nodejs-and-sql-on-event-mangment
 
-## Milestone1:
+**Create a product management CRUD APIs(use any Database you have learned in course)::**
 
-1. Installation and set up
-2. Node core(server and clients)
-3. Node Module system(modules, exports,require, promises )
-4. Node Event handler, Asynchronous, callback, file system, command line args.
-5. NPM package Manager
+  i.   Create Product
+  
+  ii.  Update Product
+  
+  iii. List Product(with pagination  and sorting)
+  
+  iv.  Delete Product
+  
 
-### Reference links:
+**Product would have below fields::**
 
-- https://nodejs.dev/learn
-- https://www.javatpoint.com/nodejs-tutorial
-- https://expressjs.com/en/starter/hello-world.html
-- https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+i. name
 
-## Milestone2:
+ii. category
 
-1. Express(helpers and middlewares,Routes)
-2. RestFul APIs(GET, PUT,POST, DELETE)
-3. Structuring an app(Project sturcture)
-4. Debug and error handling
-5. Create REST API structure (static JSON)
+iii. price
 
-### Reference links:
+iv. description
 
-- https://nodejs.dev/learn
-- https://expressjs.com/en/starter/hello-world.html
-- https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development
+v. status
 
-## Milestone3:
 
-1. Chose DB(mysql/MongoDB/postgreSQL)
-2. Connecting Database/Create a model for DB
-3. Create a crud Operation with use of DB(make it public)
-4. Create a build/Deploy in staging(push code to repo.)
+================
 
-### Reference links:
+For use this code need to install
 
-- https://docs.mongodb.com/manual/introduction/
-- https://expressjs.com/en/guide/database-integration.html
-- https://mongoosejs.com/docs/guide.html
-- https://sequelize.org/v7/manual/getting-started.html
-- https://education.github.com/git-cheat-sheet-education.pdf
+node
 
-## Exercise:
+npm
 
-- Create a demo project with proper folder structure
-- Configure the database (mysql/MongoDB/postgreSQL)
-- Design schema for the Product schema along with the product category
-- Create endpoints for product category management which includes:
-  - Create Product details
-  - Update Product details
-  - List Product (with pagination and sorting)
-  - Searching based on different criteria as you can.
-  - Delete Product
-- Create endpoints for product management which includes:
-  - Create Product details
-  - Update Product details
-  - List Product (with pagination and sorting)
-  - Searching based on different criteria as you can.
-  - Delete Product
-- Validate the request body query params and throw an appropriate error with suitable status code in response body
+mysql
 
-## What you will be able to do post this course::
+===================================
 
-- Participate in existing Node Js Project Setup
-- Create Crud Operation using Rest Api
-- Handle Request Response
-- Implement Business Logic & Functionality
-- Test Api via Postman
+Pre-requirement 
+Import node_api.sql file in phpmyadmin
+Update db-connection.js file like your current db user , host, password etc.
+after than you need to postman or thunder client or  api test other platform to test the api.
+
+
+Dummy data to insert
+====================================
+{
+    "product_category_id": 1,
+    "product_name": "Standard Bussiness Cards",
+    "product_description": "Creative Business Cards to Impress Clients!",
+    "price": 10,
+    "status": "1"
+}
+You can refer below documention to how to use our api
+https://documenter.getpostman.com/view/17828788/UVyoUxSx
+
