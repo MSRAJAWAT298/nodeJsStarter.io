@@ -49,9 +49,13 @@ Dummy data to insert
 {
 
   "product_category_id": 1,
+  
   "product_name": "Standard Bussiness Cards",
+  
   "product_description": "Creative Business Cards to Impress Clients!",
+  
   "price": 10,
+  
   "status": "1"
 }
 
