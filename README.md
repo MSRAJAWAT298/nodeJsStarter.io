@@ -43,14 +43,20 @@ after than you need to postman or thunder client or  api test other platform to 
 
 
 Dummy data to insert
+
 ====================================
+
 {
-    "product_category_id": 1,
-    "product_name": "Standard Bussiness Cards",
-    "product_description": "Creative Business Cards to Impress Clients!",
-    "price": 10,
-    "status": "1"
+
+  "product_category_id": 1,
+  "product_name": "Standard Bussiness Cards",
+  "product_description": "Creative Business Cards to Impress Clients!",
+  "price": 10,
+  "status": "1"
 }
+
+
 You can refer below documention to how to use our api
+
 https://documenter.getpostman.com/view/17828788/UVyoUxSx
 
